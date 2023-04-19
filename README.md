@@ -13,10 +13,8 @@ Deployed at
 
 ## Usage
 
-![](/Assets\Images\Portfolio-screenshot.png)
+![](./src/assets/Screenshot%202023-04-19%20132204.png)
 
-Open the index.html file in a browser, or navigate to https://veis1337.github.io/Michael-Weiss-Portfolio-Page.html
-The navigation bar in the Header can be used to quickly jump to the different sections of the page.
 
 
 
