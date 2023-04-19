@@ -92,7 +92,8 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-200 bg-blue-600">
             <a
               className="flex justify-between items-center w-full text-[#f6e5e5]"
-              href="/"
+              href="https://www.linkedin.com/in/the-michael-weiss/"
+              target="_blank"
             >
               LinkedIn <FaLinkedin size={30} />
             </a>
@@ -100,7 +101,8 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-200 bg-[#333333]">
             <a
               className="flex justify-between items-center w-full text-[#f6e5e5]"
-              href="/"
+              href="https://github.com/Veis1337"
+              target="_blank"
             >
               GitHub <FaGithub size={30} />
             </a>
@@ -108,7 +110,8 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-200 bg-[#712ba0]">
             <a
               className="flex justify-between items-center w-full text-[#f6e5e5]"
-              href="/"
+              href="mailto:weissm09@gmail.com"
+              target="_blank"
             >
               Email <HiOutlineMail size={30} />
             </a>
@@ -116,7 +119,9 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-200 bg-[#5e6138]">
             <a
               className="flex justify-between items-center w-full text-[#f6e5e5]"
-              href="/"
+              href="MichaelWeiss-2023.pdf"
+              target="_blank"
+              download
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>

@@ -1,5 +1,5 @@
 import React from "react";
-import SMB from "../assets/SocialMediaBackend.png";
+import Pkmn from "../assets/projects/PkmnBattler.png";
 
 const Work = () => {
   return (
@@ -12,20 +12,23 @@ const Work = () => {
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
 
           <div 
-          style={{ backgroundImage: `url(${SMB})` }}
+          style={{ backgroundImage: `url(${Pkmn})` }}
           className="shadow-lg shadow-[#2b162e] group container rounded-md flex justify-center items-center mx-auto content-div">
-            {/*Hover*/}
+
+            {/*Hover Effect*/}
             <div className="opacity-0 group-hover:opacity-100">
+
+            {/*Project 1*/}
               <span className="font-bold px-4 py-3 m-2 text-[#f6e5e5] tracking-wider">
-                MERN Stack App
+                MERN Stack Pokemon Battler
               </span>
               <div className="pt-8 text-center">
                 <a href="/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-[#363b4e]">
-                    Demo
+                    Not Deployed Yet 
                   </button>
                 </a>
-                <a href="/">
+                <a href="https://github.com/Veis1337/Pkmn-Battler" target="_blank">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-[#363b4e]">
                     Code
                   </button>
@@ -33,31 +36,9 @@ const Work = () => {
               </div>
             </div>
           </div>
-
+            {/*Project 2*/}
           <div 
-          style={{ backgroundImage: `url(${SMB})` }}
-          className="shadow-lg shadow-[#2b162e] group container rounded-md flex justify-center items-center mx-auto content-div">
-            <div className="opacity-0 group-hover:opacity-100">
-              <span className="font-bold px-4 py-3 m-2 text-[#f6e5e5] tracking-wider">
-                MongoDB NoSQL Backend
-              </span>
-              <div className="pt-8 text-center">
-                <a href="/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-[#363b4e]">
-                    Demo
-                  </button>
-                </a>
-                <a href="/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-[#363b4e]">
-                    Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div 
-          style={{ backgroundImage: `url(${SMB})` }}
+          style={{ backgroundImage: `url(${Pkmn})` }}
           className="shadow-lg shadow-[#2b162e] group container rounded-md flex justify-center items-center mx-auto content-div">
             <div className="opacity-0 group-hover:opacity-100">
               <span className="font-bold px-4 py-3 m-2 text-[#f6e5e5] tracking-wider">
@@ -77,9 +58,9 @@ const Work = () => {
               </div>
             </div>
           </div>
-
+            {/*Project 3*/}
           <div 
-          style={{ backgroundImage: `url(${SMB})` }}
+          style={{ backgroundImage: `url(${Pkmn})` }}
           className="shadow-lg shadow-[#2b162e] group container rounded-md flex justify-center items-center mx-auto content-div">
             <div className="opacity-0 group-hover:opacity-100">
               <span className="font-bold px-4 py-3 m-2 text-[#f6e5e5] tracking-wider">
@@ -99,9 +80,9 @@ const Work = () => {
               </div>
             </div>
           </div>
-
+            {/*Project 4*/}
           <div 
-          style={{ backgroundImage: `url(${SMB})` }}
+          style={{ backgroundImage: `url(${Pkmn})` }}
           className="shadow-lg shadow-[#2b162e] group container rounded-md flex justify-center items-center mx-auto content-div">
             <div className="opacity-0 group-hover:opacity-100">
               <span className="font-bold px-4 py-3 m-2 text-[#f6e5e5] tracking-wider">
@@ -121,9 +102,31 @@ const Work = () => {
               </div>
             </div>
           </div>
-
+            {/*Project 5*/}
           <div 
-          style={{ backgroundImage: `url(${SMB})` }}
+          style={{ backgroundImage: `url(${Pkmn})` }}
+          className="shadow-lg shadow-[#2b162e] group container rounded-md flex justify-center items-center mx-auto content-div">
+            <div className="opacity-0 group-hover:opacity-100">
+              <span className="font-bold px-4 py-3 m-2 text-[#f6e5e5] tracking-wider">
+                MongoDB NoSQL Backend
+              </span>
+              <div className="pt-8 text-center">
+                <a href="/">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-[#363b4e]">
+                    Demo
+                  </button>
+                </a>
+                <a href="/">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-[#363b4e]">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+            {/*Project 6*/}
+          <div 
+          style={{ backgroundImage: `url(${Pkmn})` }}
           className="shadow-lg shadow-[#2b162e] group container rounded-md flex justify-center items-center mx-auto content-div">
             <div className="opacity-0 group-hover:opacity-100">
               <span className="font-bold px-4 py-3 m-2 text-[#f6e5e5] tracking-wider">
