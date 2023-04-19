@@ -9,14 +9,11 @@ provide functionality I couldn't have dreamed up at the beginning of my coding j
 
 ## Installation
 
-Deployed at 
+Deployed at http://Veis1337.github.io/ReactPortfolio
 
 ## Usage
 
 ![](./src/assets/Screenshot%202023-04-19%20132204.png)
-
-
-
 
 ## Credits
 
