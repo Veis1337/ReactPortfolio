@@ -27,3 +27,7 @@
     hsla(66, 76%, 25%, 0.8)
     )!important;
 }
+
+.highlighted {
+    background-color: #4f3b78
+}

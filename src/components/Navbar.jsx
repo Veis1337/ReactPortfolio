@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { React, useState } from "react";
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
@@ -8,38 +8,67 @@ import { Link } from "react-scroll";
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
+  {/*Highlighting navbar*/}
+  const [activeTab, setActiveTab] = useState('home');
+ 
 
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#363b4e] text-[#f6e5e5]">
       <div>
         <img src={Logo} alt="React Logo" style={{ width: "50px" }} />
       </div>
+      <div className="mx-auto">Michael Weiss</div>
 
       {/*Menu*/}
       <div>
         <ul className="hidden md:flex">
           <li>
-            <Link to="home" smooth={true} duration={500}>
+          <Link className={activeTab === 'home' ? 'highlighted other-classes' : 'other-classes'} 
+            to="home" 
+            smooth={true} 
+            duration={500}
+            onClick={ () => setActiveTab('home')}
+            >
               Home
             </Link>
           </li>
           <li>
-            <Link to="about" smooth={true} duration={500}>
+          <Link className={activeTab === 'about' ? 'highlighted other-classes' : 'other-classes'} 
+            to="about" 
+            smooth={true} 
+            duration={500}
+            onClick={ () => setActiveTab('about')}
+            >
               About
             </Link>
           </li>
           <li>
-            <Link to="skills" smooth={true} duration={500}>
+          <Link className={activeTab === 'skills' ? 'highlighted other-classes' : 'other-classes'} 
+            to="skills" 
+            smooth={true} 
+            duration={500}
+            onClick={ () => setActiveTab('skills')}
+            >
               Skills
             </Link>
           </li>
           <li>
-            <Link to="projects" smooth={true} duration={500}>
+          <Link className={activeTab === 'projects' ? 'highlighted other-classes' : 'other-classes'} 
+            to="projects" 
+            smooth={true} 
+            duration={500}
+            onClick={ () => setActiveTab('projects')}
+            >
               Projects
             </Link>
           </li>
           <li>
-            <Link to="contact" smooth={true} duration={500}>
+          <Link className={activeTab === 'contact' ? 'highlighted other-classes' : 'other-classes'} 
+            to="contact" 
+            smooth={true} 
+            duration={500}
+            onClick={ () => setActiveTab('contact')}
+            >
               Contact
             </Link>
           </li>

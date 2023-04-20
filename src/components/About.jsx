@@ -1,4 +1,5 @@
 import React from "react";
+import Me from '../assets/me.png'
 
 const About = () => {
   return (
@@ -10,6 +11,7 @@ const About = () => {
         <p className="text-4xl inline sm:text-5xl border-b-4 border-[#c8d679] py-1">
           About
         </p>
+        <div className="flex">  
         <p className="py-4 max-w-[700px] md:text-2xl">
           Thanks for making it this far! I recently earned a Full-Stack software
           developer certificate from UNC Chapel Hill. Throughout my studies, I
@@ -21,7 +23,10 @@ const About = () => {
           that same tenacity to a new home in a software developer role. Keep
           scrolling to see my favorite languages and libraries.
         </p>
+        <img className="my-auto max-w-[250px] max-h-[250px] mx-auto border-b-4 border-t-4 p-4 border-[#c8d679] collapse md:visible" src={Me} alt="Michael Weiss Photo" />
+        </div>
       </div>
+
     </div>
   );
 };
